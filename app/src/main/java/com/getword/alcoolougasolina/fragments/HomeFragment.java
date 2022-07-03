@@ -1,5 +1,6 @@
 package com.getword.alcoolougasolina.fragments;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -43,14 +44,7 @@ public class HomeFragment extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment HomeFragment.
-     */
+
     // TODO: Rename and change types and number of parameters
     public static HomeFragment newInstance(String param1, String param2) {
         HomeFragment fragment = new HomeFragment();
@@ -83,6 +77,7 @@ public class HomeFragment extends Fragment {
 
 
         btnCalcular.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
 
@@ -104,7 +99,7 @@ public class HomeFragment extends Fragment {
                      * */
                     Double resultado = valorAlcool / valorGasolina;
                     if( resultado >= 0.7 ){
-                        textResultado.setText("Melhor utilizar Gasolina");
+                        textResultado.setText("Melhor utilize Gasolina");
                     }else {
                         textResultado.setText("Melhor utilizar Álcool");
                     }
