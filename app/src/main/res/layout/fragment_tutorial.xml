@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".TutorialFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="232dp"
+            android:layout_height="229dp"
+            android:src="@drawable/logomarcaag"
+            android:contentDescription="Logomarca de Bomba de combustivel" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ajuda..."
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Insira o valor desejado , exemplo 3.50 não inserir ( , ) virgula para o calculo funcionar corretamente."
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Essa ferramenta compara o preço do litro do álcool com o da gasolina e mostra qual deles é mais vantajoso financeiramente. Cálculo leva em conta que o etanol deve custar até 70% da gasolina para valer a pena.Acima desse percentual é melhor abastecer com gasolina."
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+</FrameLayout>

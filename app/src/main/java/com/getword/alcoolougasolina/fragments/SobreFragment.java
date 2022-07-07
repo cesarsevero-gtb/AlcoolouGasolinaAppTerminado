@@ -34,11 +34,15 @@ public class SobreFragment extends Fragment {
         versao.setTitle("versão 1.0.0.0.20");
 
 
+
+
         View sobre = new AboutPage(getActivity())
+
                 .setImage(R.drawable.logo22 )
                 .setDescription(descricao)
                 .addGroup("Entre em Contato")
                 .addEmail("direito1boab@gmail.com","Envie um E-mail")
+
 
                 .addGroup("Links")
                 .addPlayStore("com.getworld.alcoolougasolina", "Avalie nosso Aplicativo")
