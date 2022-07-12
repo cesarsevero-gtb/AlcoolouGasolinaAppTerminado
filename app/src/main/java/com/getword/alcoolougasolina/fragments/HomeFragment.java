@@ -33,6 +33,7 @@ public class HomeFragment extends Fragment {
 
     public Button btnCalcular;
 
+
     public EditText editPrecoAlcool;
     public EditText editPrecoGasolina;
     public TextView textResultado;
@@ -74,6 +75,9 @@ public class HomeFragment extends Fragment {
         editPrecoAlcool = (EditText) vista.findViewById(R.id.editPrecoAlcool);
         editPrecoGasolina = (EditText) vista.findViewById(R.id.editPrecoGasolina);
         textResultado = (TextView) vista.findViewById(R.id.textResultado);
+
+
+
 
 
         btnCalcular.setOnClickListener(new View.OnClickListener() {

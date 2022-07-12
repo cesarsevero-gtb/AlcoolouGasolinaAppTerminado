@@ -103,6 +103,7 @@
             android:text="Nenhuma opção escolhida."
             android:textColor="@color/black"
             android:textSize="24sp" />
+
     </LinearLayout>
 
 </FrameLayout>

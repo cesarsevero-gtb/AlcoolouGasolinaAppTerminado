@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Insira o valor desejado , exemplo 3.50 não inserir ( , ) virgula para o calculo funcionar corretamente."
+            android:text="Insira o valor desejado , exemplo 3.50 não inserir ( , ) virgula para o aplicativo funcionar corretamente."
             android:textColor="@color/black"
             android:textSize="20sp" />
 

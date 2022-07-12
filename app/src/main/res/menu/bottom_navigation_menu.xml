@@ -11,16 +11,6 @@
         android:icon="@drawable/ic_help"
         android:title="@string/menu_ajuda"/>
 
-    <item
-        android:id="@+id/menu_avalie"
-        android:icon="@drawable/menu_avalie"
-        android:title="@string/menu_avalie"/>
-
-    <item
-        android:id="@+id/menu_adicionar"
-        android:icon="@drawable/menu_add"
-        android:title="@string/menu_adicionar"/>
-
 
     <item
         android:id="@+id/menu_sobre"
