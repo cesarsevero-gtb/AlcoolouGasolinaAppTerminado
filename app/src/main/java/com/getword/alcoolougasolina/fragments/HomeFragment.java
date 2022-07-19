@@ -86,8 +86,13 @@ public class HomeFragment extends Fragment {
             public void onClick(View view) {
 
                 //recuperar valores digitados
-                String precoAlcool = editPrecoAlcool.getText().toString();
-                String precoGasolina = editPrecoGasolina.getText().toString();
+                //String precoAlcool = editPrecoAlcool.getText().toString();
+                String precoAlcool = editPrecoAlcool.getText().toString().replace("," , ".");
+                //String precoGasolina = editPrecoGasolina.getText().toString();
+                String precoGasolina = editPrecoGasolina.getText().toString().replace("," , ".");
+
+
+
 
                 //Validar os campos digitados
                 Boolean camposValidados = validarCampos(precoAlcool, precoGasolina);
@@ -101,7 +106,7 @@ public class HomeFragment extends Fragment {
                      * Se (valorAlcool / valorGasolina) >= 0.7 é melhor utilizar gasolina
                      *   senão é melhor utilizar álcool
                      * */
-                    Double resultado = valorAlcool / valorGasolina;
+                    double resultado = valorAlcool / valorGasolina;
                     if( resultado >= 0.7 ){
                         textResultado.setText("Melhor utilize Gasolina");
                     }else {
@@ -116,7 +121,7 @@ public class HomeFragment extends Fragment {
 
             public Boolean validarCampos( String pAlcool, String pGasolina ){
 
-                Boolean camposValidados = true;
+                boolean camposValidados = true;
 
                 if( pAlcool == null || pAlcool.equals("") ){
                     camposValidados = false;
