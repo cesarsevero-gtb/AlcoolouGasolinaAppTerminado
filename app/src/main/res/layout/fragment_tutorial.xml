@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Insira o valor desejado , exemplo 3.50 não inserir ( , ) virgula para o aplicativo funcionar corretamente."
+            android:text="Insira o valor do alcool e da gasolina e clique em calcular para saber qual deve abastecer e assim economizar."
             android:textColor="@color/black"
             android:textSize="20sp" />
 

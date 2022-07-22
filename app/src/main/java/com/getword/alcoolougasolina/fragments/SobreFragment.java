@@ -40,13 +40,14 @@ public class SobreFragment extends Fragment {
 
                 .setImage(R.drawable.logo22 )
                 .setDescription(descricao)
-                .addGroup("Entre em Contato")
+                .addGroup("Sujestões e Contato")
                 .addEmail("direito1boab@gmail.com","Envie um E-mail")
 
 
                 .addGroup("Links")
-                .addPlayStore("com.getworld.alcoolougasolina", "Avalie nosso Aplicativo")
+                .addPlayStore("com.getword.alcoolougasolina", "Avalie nosso Aplicativo")
                 .addWebsite("https://play.google.com/store/apps/dev?id=8817099273138442707", "Conheça todos Aplicativos")
+                .addWebsite("https://www.paypal.com/donate/?hosted_button_id=ZWAAXW93L99F8", "Faça uma Doação")
 
                 .create();
 
