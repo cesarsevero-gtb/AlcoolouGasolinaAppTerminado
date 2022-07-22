@@ -9,8 +9,8 @@ android {
         applicationId "com.getword.alcoolougasolina"
         minSdk 16
         targetSdk 32
-        versionCode 2
-        versionName "1.0.0.1.20"
+        versionCode 3
+        versionName "1.0.0.1.30"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
