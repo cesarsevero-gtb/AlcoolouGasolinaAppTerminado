@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.getword.alcoolougasolina.R;
 
@@ -115,7 +116,10 @@ public class HomeFragment extends Fragment {
 
 
                 }else {
-                    textResultado.setText("Preencha os preços primeiro!");
+                    //textResultado.setText("Preencha os preços primeiro!");
+                    Toast.makeText(getActivity(), "Preencha os preços primeiro!",
+                            Toast.LENGTH_LONG).show();
+
                 }
             }
 
